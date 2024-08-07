@@ -1,0 +1,98 @@
+body{
+            background-color:whitesmoke;
+        }
+        .color{
+            background-color: white;
+            padding-block:  10px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 600px;
+            position: absolute;
+            
+        }
+        .main{
+        
+            padding: 38px;
+            text-align: left;
+            width: 500px;
+            background-color: lightgray;
+            border-radius: 5px;
+        }
+        
+        .c1:active{
+         background-color: aliceblue;
+        }
+        
+        input[type=submit]{
+
+         margin-top: 10px;
+         padding: 10px 30px;
+         background-color: green;
+         color: white;
+         border: none;
+         cursor: pointer; width: 500px;}
+         input[type=submit]:hover{
+            background-color: rgb(92, 243, 92);
+         }
+        
+        input[type=text]{
+            text-align: left;
+         margin-top: 10px;
+         padding: 10px 30px;
+         background-color: white;
+         color: black;
+         border: none;
+         cursor: pointer; width: 443px;}
+         
+         .c1{ width: 500px; height: 40px;}
+         .dropdown{
+            background-color: green;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+         }
+         .button{background-color: white;
+            width: 0px;
+            height: 0px;
+            display: inline-block;
+            position: absolute;
+            top: 80%;
+            left: 30%;
+           
+
+         }
+         .dropdown-menu{
+            display: none;
+            position: absolute;
+            top: 50px;
+            left: 0px;
+            background-color: lightgrey;
+            min-width: 16px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+           
+         }
+         .dropdown-menu a{
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-decoration: none;
+            width:200px ;
+            margin-top: 10px;
+         }
+         .dropdown:hover .dropdown-menu{
+            display: block;
+         }
+         
+ .button:hover {
+    background-color: red!important;
+    height: 300px;
+    width: 300px;
+
+    transition: all 5s ease;
+}
+        
